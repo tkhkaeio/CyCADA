@@ -39,8 +39,8 @@ but if specifying `direction="BtoA"` in `scripts/train_cycada.sh`, switch source
 
 ## Pretraining
 
-pretrained models contain in `pretrain` \
-if you pretrain a source classifier before adaptation, please specify `pretrain=1`. \
+Pretrained models contain in `pretrain` \
+If you pretrain a source classifier before adaptation, please specify `pretrain=1`. \
 
 
 ## Train
