@@ -14,7 +14,7 @@ I prepare a download code of MNIST->USPS dataset and run below.
 python prepare_mnist2usps.py
 ```
 
-If you conduct experiments on your dataset, please put data on the path: "../data/[your dataset]" and specify dataroot option in "scripts/train_cycada.sh" (default: dataroot="../data/mnist_USPS")
+If you conduct experiments on your dataset, please put data on the path: `../data/[your dataset]` and specify dataroot option in `scripts/train_cycada.sh` (default: dataroot=`../data/mnist_USPS`)
 
 Dataset structure must be
 ```
@@ -40,7 +40,7 @@ but if specifying `direction="BtoA"` in `scripts/train_cycada.sh`, switch source
 ## Pretraining
 
 Pretrained models contain in `pretrain` \
-If you pretrain a source classifier before adaptation, please specify `pretrain=1`. \
+If you pretrain a source classifier before adaptation, please specify `pretrain=1`.
 
 
 ## Train
