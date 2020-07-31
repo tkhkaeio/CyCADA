@@ -68,7 +68,7 @@ models/pretrain/lenet_usps_acc_97.1599.pt
 ```
 
 |Model| Direction   | M-U  |
-|-----|-----|-------|------|------|
+|-----|-----|-------|
 |Source-only        | -> |91.68|
 |Source-only        | <- |68.55|
 |Cycada             | -> |96.0 (95.6)  |
