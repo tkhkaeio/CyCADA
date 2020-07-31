@@ -50,7 +50,7 @@ If you conduct domain adaptation, please run below. All hyperparameters are pack
 ```
 
 ## Test
-This tests code automatically searches unevaluated models in checkpoints.
+This test code automatically searches unevaluated models in checkpoints.
 ```
 ./scripts/test.sh
 ```
